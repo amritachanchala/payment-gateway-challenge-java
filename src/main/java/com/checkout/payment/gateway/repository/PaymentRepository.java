@@ -7,7 +7,7 @@ import java.util.UUID;
 import org.springframework.stereotype.Repository;
 
 @Repository
-public class PaymentsRepository {
+public class PaymentRepository {
 
   private final HashMap<UUID, PostPaymentResponse> payments = new HashMap<>();
 
@@ -19,4 +19,7 @@ public class PaymentsRepository {
     return Optional.ofNullable(payments.get(id));
   }
 
+  public void clear() {
+    payments.clear();
+  }
 }
