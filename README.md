@@ -23,3 +23,11 @@ docker-compose.yml - configures the bank simulator
 For documentation openAPI is included, and it can be found under the following url: **http://localhost:8090/swagger-ui/index.html**
 
 **Feel free to change the structure of the solution, use a different library etc.**
+
+## Change added
+- A Post API is create which can be accessed at endpoint - POST- http://localhost:8090/payment
+- Unit tests are added
+- Integration tests are  added which tests different scenarios with POST and GET API 
+and are present at "java/com/checkout/payment/gateway/integrationtest/PaymentGatewayIntegrationTest.java"
+Pre condition- Docker is running
+- Tracing is enables using zipkin and can be accessed at url- http://localhost:9411- 
