@@ -32,7 +32,7 @@ and are present at "java/com/checkout/payment/gateway/integrationtest/PaymentGat
 Pre condition- Docker is running
 - Tracing is enables using zipkin and can be accessed at url- http://localhost:9411/zipkin/
 - Added below dependencies
-  ## For Validation os request and error messages
+  ## For Validation of request and error messages
   implementation 'org.springframework.boot:spring-boot-starter-validation'
   ## For Zipkin
   implementation 'org.springframework.boot:spring-boot-starter-actuator'
