@@ -231,6 +231,6 @@ class PaymentGatewayIntegrationTest {
 
   @AfterEach
   void tearDown() {
-    paymentRepository.clear(); // you need to implement this
+    paymentRepository.clear();
   }
 }

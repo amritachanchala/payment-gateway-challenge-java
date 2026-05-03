@@ -1,0 +1,20 @@
+server:
+  port: 8090
+
+bank:
+  simulator:
+    url: http://localhost:8080
+
+springdoc:
+  swagger-ui:
+    enabled: true
+  api-docs:
+    enabled: true
+
+management:
+  tracing:
+    sampling:
+      probability: 1.0  # trace all requests (use lower in prod)
+  zipkin:
+    tracing:
+      endpoint: http://localhost:9411/api/v2/spans

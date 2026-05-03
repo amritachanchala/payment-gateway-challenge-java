@@ -12,4 +12,9 @@ services:
       - type: bind
         source: ./imposters
         target: /imposters
-      
+
+  zipkin:
+    container_name: zipkin
+    image: openzipkin/zipkin
+    ports:
+      - "9411:9411"
