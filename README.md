@@ -1,4 +1,4 @@
-# Instructions for candidates changes by Prashant
+# Instructions for candidates changes by Prashant1
 
 This is the Java version of the Payment Gateway challenge. If you haven't already read this [README.md](https://github.com/cko-recruitment/) on the details of this exercise, please do so now.
 
